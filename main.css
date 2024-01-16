@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap');
+
+
+:root{
+
+    --red: #da291c; 
+    --BLUE: #006db7;
+    --Yellow: #ffd700; 
+    --green: #00AD4D;
+    --BLACK: #000000;
+    --White: #ffffff ;
+
+   
+    --font: 'Rubik', sans-serif; 
+    --rootsize: 20px; 
+    --MaxSize: 1200px;
+}
+
+h1{
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    background-color: var(--Yellow);
+    background-image: url(/LEGOdudes_webshop/website_images/mainbackground.png);
+
+    font-size: var(--rootsize);
+    font-family: var(--font);
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+/* Fixed text sizes  */
+
+p {
+ font-size: 1rem;}
+ h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+ }
+
+ h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+ }
+
+ /* Main structure */
+ #container {
+    background-color: var(--White);
+    width: 100%;
+    max-width: var(--MaxSize);
+    margin: 0 auto;
+    min-height: 200px;
+    
+ }
+
+ /* Header */
+header{
+
+    display:flex;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+}
+ #logo {
+
+    max-width: 15rem;
+
+ }
+
+ #carticon {
+    max-width: 3rem;
+ }
+
+ nav {
+
+    background-color: var(--red);
+    
+ }
+
+ ul{
+
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    color: var(--White);
+ }
+
+ nav a {
+    padding: 1rem;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+ }
+
+ nav a:hover {
+    background-color: var(--Yellow);
+    color: var(--BLACK);
+ }
