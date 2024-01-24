@@ -1,0 +1,63 @@
+
+body{
+
+    background-color: #E1E5EE;
+}
+
+
+#container{
+    position: relative;
+    display: flex;
+
+    width: 1400px;
+    height: 400px;
+    background-color: #ffff ;
+    top: 200px;
+    margin-left:230px ;
+    
+
+}
+
+#resources2{
+
+ display: block;
+ position: absolute;
+ top: 50px;
+ right: 350px;
+
+   
+
+}
+
+#category-buttons{
+
+    display: flex;
+    position: relative;
+    bottom: 70px;
+    justify-content: space-between;
+
+    
+
+}
+
+
+body button{
+    
+
+    background-color: #2A324B ;
+    color: #ffffff;
+    width: 150px;
+    height: 70px;
+    max-width: 300px;
+
+}
+
+
+
+#category-html {
+    position: relative;
+    display: inline;
+   right: 200px;
+}
+
+
