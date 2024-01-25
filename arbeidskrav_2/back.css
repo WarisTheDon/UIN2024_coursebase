@@ -92,7 +92,7 @@ body button{
 #kategori-sanity-and-headless-cms  {
     position: relative;
     left: 80px;
-    /* Legg til dine egne stiler her */
+    
 }
 
 button.aktiv-kategori{
@@ -104,9 +104,9 @@ button.aktiv-kategori{
 }
 
 .kategori-knapp.javascript {
-    width: 250px; /* Bredden for HTML-knappen */
+    width: 250px; 
 }
 
 .kategori-knapp.sanity-and-headless-cms {
-    width: 330px; /* Bredden for HTML-knappen */
+    width: 330px; /
 }
