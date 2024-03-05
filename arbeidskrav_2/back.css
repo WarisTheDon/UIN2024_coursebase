@@ -1,0 +1,112 @@
+
+
+
+body{
+    font-family: "Montserrat";
+    background-color: #E1E5EE;
+}
+
+
+#container{
+    position: relative;
+    display: flex;
+
+    width: 1260px;
+    height: 400px;
+    background-color: #ffff ;
+    top: 200px;
+    margin-left:230px ;
+    
+
+}
+
+#resources2{
+
+ display: block;
+ position: absolute;
+ top: 50px;
+ right: 350px;
+
+   
+
+}
+
+#category-buttons{
+
+    display: flex;
+    position: relative;
+    bottom: 80px;
+    justify-content: space-between;
+    right: 10px;
+    
+ 
+    box-shadow: none;
+
+}
+
+
+body button{
+    
+
+    background-color: #2A324B ;
+    color: #ffffff;
+    width: 200px;
+    height: 70px;
+    
+    margin: 10px;
+    font-family: "Montserrat";
+    font-size: larger;
+    font-size: 16px;
+    box-shadow: none;
+}
+
+
+
+
+
+#kategori-html {
+    position: relative;
+
+
+   left: 74px;
+}
+
+#kategori-css {
+    position: relative;
+    
+   right: 144px;
+}
+
+#kategori-javascript {
+    position: relative;
+    
+   left: 74px;
+}
+
+#kategori-react {
+    position: relative;
+   
+   left: 60px;
+}
+
+#kategori-sanity-and-headless-cms  {
+    position: relative;
+    left: 80px;
+    
+}
+
+button.aktiv-kategori{
+
+    background-color: #ffffff;
+    border-color:  #ff050500;
+    color:  black;
+    box-shadow: none;
+}
+
+.kategori-knapp.javascript {
+    width: 250px; 
+}
+
+.kategori-knapp.sanity-and-headless-cms {
+    width: 330px; /
+}
